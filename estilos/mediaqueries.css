@@ -1,0 +1,17 @@
+@media(width >=768px){
+
+    .swiper {
+        width: clamp(100px, 90%, 700px);
+        height: 600px; /* Define la altura total del Swiper */
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 10em;
+      }
+      .swiper-slide img {
+        width: 70%;            /* Define que la imagen tenga un ancho del 80% */
+        height: 100%;          /* Mantén la altura al 100% */
+        object-fit: cover;     /* Asegura que la imagen cubra el espacio sin deformarse */
+        margin: 0 auto;        /* Centra la imagen horizontalmente */
+        display: block;        /* Necesario para que el margin funcione */
+      }
+}
